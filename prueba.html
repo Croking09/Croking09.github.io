@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/prueba.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/desplegable.css">
+    <script src="scripts/desplegable.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+    <div id="desplegable-placeholder"></div>
+
+    <section>
+        <div class="cuartos">
+            <div class="partido">A vs B</div>
+            <div class="partido">C vs D</div>
+            <div class="partido">E vs F</div>
+            <div class="partido">G vs H</div>
+        </div>
+        <div class="semis">
+            <div class="partido">A vs D</div>
+            <div class="partido">F vs G</div>
+        </div>
+        <div class="final">
+            <div class="partido">A vs G</div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+    <script>
+        $(function(){
+            $('#header-placeholder').load('header.html');
+            $('#desplegable-placeholder').load('desplegable.html');
+            $('#footer-placeholder').load('footer.html');
+        });
+    </script>
+</body>
+</html>

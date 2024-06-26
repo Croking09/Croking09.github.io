@@ -1,0 +1,25 @@
+header {
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: red;
+}
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu-icon {
+    color: black;
+    font-weight: 400;
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
